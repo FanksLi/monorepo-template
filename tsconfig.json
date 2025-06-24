@@ -2,12 +2,21 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "es2015",
-    "lib": ["DOM", "ES2015", "ScriptHost", "DOM.Iterable", "WebWorker", "WebWorker.ImportScripts", "ESNext", "ES2020.String", "ES2020.Symbol.WellKnown"],
+    "lib": [
+      "DOM",
+      "ES2015",
+      "ScriptHost",
+      "DOM.Iterable",
+      "WebWorker",
+      "WebWorker.ImportScripts",
+      "ESNext",
+      "ES2020.String",
+      "ES2020.Symbol.WellKnown"
+    ],
     "module": "commonjs",
     "rootDir": "./",
     "baseUrl": "./",
-    "sourceMap": false,
-    "inlineSourceMap": true,
+    "sourceMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -15,11 +24,6 @@
     "noEmit": true,
     "noEmitOnError": true
   },
-  "include": [
-    "apps/**/*",
-    "packages/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-  ]
+  "include": ["apps/**/*", "packages/**/*"],
+  "exclude": ["node_modules"]
 }

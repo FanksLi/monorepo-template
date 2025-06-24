@@ -1,6 +1,0 @@
-{
-  "extends": ["prettier"],
-  "plugins": ["prettier"],
-  "rules": { "prettier/prettier": "error" },
-  "exclude": ["node_modules"]
-}

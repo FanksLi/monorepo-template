@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.12.2",
-  "type": "module",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",

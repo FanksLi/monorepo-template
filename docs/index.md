@@ -19,9 +19,9 @@ hero:
 ## 📦 安装
 
 ```bash
-$ pnpm install --save @fan/hooks
+$ pnpm install --save nn-hooks
 # or
-$ yarn add fan-hooks
+$ yarn add nn-hooks
 ```
 
 ## 🔨 使用
@@ -29,5 +29,5 @@ $ yarn add fan-hooks
 参考 `Hooks`内容，使用如下：
 
 ```ts
-import { useToggle } from '@fan/hooks';
+import { useToggle } from 'nn-hooks';
 ```

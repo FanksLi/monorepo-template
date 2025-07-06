@@ -3,17 +3,8 @@
 
 // const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
-const menus = [
-    {
-        title: '状态',
-        children: [
-            {
-                title: 'useToggle',
-                path: '/hooks/useToggle',
-            },
-        ],
-    },
-];
+
+import menus from './hooks';
 
 export default {
     exportStatic: {},
@@ -41,9 +32,6 @@ export default {
     dynamicImport: {},
     manifest: {},
     hash: true,
-    alias: {
-        'fanHooks': 'packages/hooks/src/index.ts',
-    },
     resolve: {
         includes: ['docs', 'packages/hooks/src']
     },

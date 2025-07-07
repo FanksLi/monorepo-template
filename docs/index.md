@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /logo.svg
+  image: /monorepo-template/logo.svg
   desc: React 业务 Hooks库
   actions:
     - text: 指南

@@ -16,6 +16,7 @@ export default {
     history: {
         type: 'hash',
     },
+    publicPath: '/monorepo-template/',
     extraBabelPlugins: [
         [
             'babel-plugin-import',

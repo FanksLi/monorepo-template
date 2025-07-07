@@ -7,7 +7,8 @@
     "test": "vitest --coverage",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
-    "site": "cross-env NODE_OPTIONS=--openssl-legacy-provider dumi dev"
+    "site": "cross-env NODE_OPTIONS=--openssl-legacy-provider dumi dev",
+    "doc:build": "cross-env NODE_OPTIONS=--openssl-legacy-provider dumi build"
   },
   "keywords": [],
   "author": "",

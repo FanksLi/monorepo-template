@@ -11,3 +11,4 @@ coverage
 dist
 es
 lib
+.umi-production

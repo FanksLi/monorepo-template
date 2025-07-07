@@ -1,5 +1,32 @@
 ## 构建日志
 
+## hooks
+
+- hook 添加
+- hooks 项目rollup打包分包配置
+- 项目发布
+
+### 打包
+
+```js
+    // 将 CommonJS 模块转换为 ES6 模块，以便 Rollup 可以处理它们。
+    "@rollup/plugin-commonjs": "^28.0.6",
+    // 使 Rollup 能够使用 Node.js 的模块解析机制来查找和打包第三方模块。
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    // 允许 Rollup 插件处理 TypeScript 代码。
+    "@rollup/plugin-typescript": "^12.1.3",
+    // 提供用于匹配文件路径的模式匹配功能，常用于批量处理文件。
+    "glob": "^11.0.3",
+    // Rollup 是一个 JavaScript 模块打包工具。
+    "rollup": "^4.44.0",
+    // 在构建之前清理指定的输出目录或其他需要清理的文件。
+    "rollup-plugin-cleaner": "^1.0.0",
+    //用于生成 TypeScript 声明文件（.d.ts），方便类型定义的分发。
+    "rollup-plugin-dts": "^6.2.1",
+    //对生成的代码进行压缩和混淆，减小最终包的体积。
+    "rollup-plugin-terser": "^7.0.2"
+```
+
 ### 测试
 
 ```js

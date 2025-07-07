@@ -2,9 +2,17 @@ const menus = [
     {
         title: '状态',
         children: [
-            'useToggle'
+            'useToggle',
+            'useLocalStorageState',
         ],
     },
+    {
+        title: '事件',
+        children: [
+            'useUpdateEffect',
+            'useMemoizedFn',
+        ],
+    }
 ];
 
 

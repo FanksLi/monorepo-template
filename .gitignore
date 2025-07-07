@@ -8,3 +8,6 @@ build
 .umi
 /pnpm-lock.yaml
 coverage
+dist
+es
+lib

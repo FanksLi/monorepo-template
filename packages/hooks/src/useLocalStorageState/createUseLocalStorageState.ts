@@ -19,23 +19,35 @@ export default function createUseLocalStorageState(getStorage: () => Storage) {
     }
 
     function serialize(value: T): string {
-      if (options?.serialize) {
-        return options.serialize(value);
+      try {
+        if (options?.serialize) {
+          return options.serialize(value);
+        }
+        return JSON.stringify(value);
+      } catch (error: unknown) {
+        onError?.(error as Error);
       }
-      return JSON.stringify(value);
     }
 
     function deserialize(value: string): T {
-      if (options?.deserialize) {
-        return options.deserialize(value);
+      try {
+        if (options?.deserialize) {
+          return options.deserialize(value);
+        }
+        return JSON.parse(value);
+      } catch (error: unknown) {
+        onError?.(error as Error);
       }
-      return JSON.parse(value);
     }
 
     function getStorageValue() {
-      const value = storage.getItem(key);
-      if (value) {
-        return deserialize(value);
+      try {
+        const value = storage.getItem(key);
+        if (value) {
+          return deserialize(value);
+        }
+      } catch (error: unknown) {
+        onError?.(error as Error);
       }
     }
 

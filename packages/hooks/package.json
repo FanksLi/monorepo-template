@@ -19,7 +19,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "github": "https://github.com/FanksLi/monorepo-template/tree/main/packages/hooks",
+  "github": "https://fanksli.github.io/monorepo-template",
   "files": [
     "dist",
     "lib",

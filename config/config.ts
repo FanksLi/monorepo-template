@@ -36,6 +36,7 @@ export default {
     resolve: {
         includes: ['docs', 'packages/hooks/src']
     },
+    logo: '/h-logo.svg',
     links: [
         {
             rel: 'stylesheet',

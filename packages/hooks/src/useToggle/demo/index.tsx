@@ -1,4 +1,3 @@
-import React from 'react';
 import useToggle from '../index';
 
 export default function Demo() {

@@ -7,7 +7,8 @@
 import menus from './hooks';
 
 export default {
-    exportStatic: {},
+    exportStatic: {
+    },
 
     nodeModulesTransform: {
         type: 'none',
@@ -36,7 +37,7 @@ export default {
     resolve: {
         includes: ['docs', 'packages/hooks/src']
     },
-    logo: '/h-logo.svg',
+    logo: '/monorepo-template/h-logo.svg',
     links: [
         {
             rel: 'stylesheet',

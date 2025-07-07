@@ -1,6 +1,6 @@
 {
   "name": "nn-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nn React 业务 hooks 库",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -8,7 +8,7 @@
   "unpkg": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
-    "publish": "pnpm build && npm publish"
+    "pub": "pnpm build && npm publish"
   },
   "keywords": [
     "hooks",

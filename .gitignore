@@ -12,3 +12,4 @@ dist
 es
 lib
 .umi-production
+.env

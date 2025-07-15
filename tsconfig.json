@@ -13,7 +13,7 @@
       "ES2020.String",
       "ES2020.Symbol.WellKnown"
     ],
-    "module": "commonjs",
+    "module": "ESNext",
     "rootDir": "./",
     "baseUrl": "./",
     "sourceMap": true,
@@ -24,7 +24,8 @@
     "noEmit": true,
     "noEmitOnError": true,
     "jsx": "react",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "moduleResolution": "node"
   },
   "include": ["apps/**/*", "packages/**/*"],
   "exclude": ["node_modules"]

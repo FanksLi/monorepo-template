@@ -21,7 +21,7 @@ export default merge(getBaseConfig(true), {
     proxy: [
       {
         '/api': {
-          target: 'http://localhost:3000',
+          target: 'http://localhost:3333',
           pathRewrite: { '^/api': '' },
         },
       },
